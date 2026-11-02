@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Sign in · DYSON</title>
+  <meta name="description" content="Create your DYSON account or sign in. Connect without limits.">
+  <meta name="theme-color" content="#050b1f">
+  <link rel="icon" href="icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="views.css">
+  <script src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+  <script src="core.js"></script>
+  <script src="i18n.js"></script>
+</head>
+<body class="auth-body">
+  <div class="auth-page">
+    <section class="auth-showcase" aria-hidden="true">
+      <a class="brand big" href="index.html"><img src="icon.png" alt="" width="52" height="52"><span><b>DYSON</b><small>Connect without limits.</small></span></a>
+      <div class="auth-orbit"><span class="o1"></span><span class="o2"></span><span class="o3"></span><img src="icon.png" alt="" width="132" height="132"></div>
+      <div class="auth-copy">
+        <h2>Message. Connect. Share. Grow.</h2>
+        <p>Chats, calls, communities, status, live streams and a private encrypted vault — in one place.</p>
+        <ul><li>Real-time messaging &amp; voice notes</li><li>HD voice and video calls</li><li>Dyson Vault with on-device encryption</li></ul>
+      </div>
+    </section>
+    <main class="auth-main"><div class="auth-card" id="authRoot"><div class="loading"><span class="spinner"></span></div></div></main>
+  </div>
+  <script src="start.js"></script>
+</body>
+</html>
